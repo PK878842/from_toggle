@@ -1,0 +1,94 @@
+.loginbtn{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(24, 98, 150);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 450px;
+    cursor: pointer;
+    transition: 700ms;
+    
+}
+.signupbtn{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(24, 98, 150);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 540px;
+    cursor: pointer;
+    transition: 700ms;
+}
+.loginbtn:hover{
+    background-color: rgb(31, 132, 205);
+    border: 1px solid white;
+
+}
+.signupbtn:hover{
+    background-color: rgb(31, 132, 205);
+    border: 1px solid white;
+}
+
+
+
+
+.login_btn_after{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(24, 98, 150);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 590px;
+    left: 600px;
+    z-index: 10;
+    cursor: pointer;
+    transition: 700ms;
+}
+.signup_btn_after{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(24, 98, 150);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 515px;
+    left: 420px;
+    cursor: pointer;
+    z-index: 10;
+    transition: 700ms;
+}
+
+.login_btn_after:hover{
+    background-color: rgb(31, 132, 205);
+    border: 1px solid white;
+
+}
+.signup_btn_after:hover{
+    background-color: rgb(31, 132, 205);
+    border: 1px solid white;
+}

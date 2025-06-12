@@ -1,0 +1,49 @@
+.login_bg{
+    position: relative;
+    top: 50px;
+    left: 430px;
+    height: 470px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(76, 148, 124);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+    transition: 700ms;
+}
+.login_title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.login_bg input{
+    height: 60px;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login_bg button{
+    height: 60px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(123, 38, 202);
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 700ms;
+}
+.login_bg button:hover{
+    background-color: rgb(155, 49, 255);
+    border: 1px solid white;
+}
