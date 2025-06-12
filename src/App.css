@@ -10,7 +10,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    top: 40px;
+    top: 130px;
     left: 450px;
     cursor: pointer;
     transition: 700ms;
@@ -28,7 +28,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    top: 40px;
+    top: 130px;
     left: 540px;
     cursor: pointer;
     transition: 700ms;
@@ -58,8 +58,8 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    top: 590px;
-    left: 600px;
+    top: 575px;
+    left: 570px;
     z-index: 10;
     cursor: pointer;
     transition: 700ms;
@@ -76,8 +76,8 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    top: 515px;
-    left: 420px;
+    top: 510px;
+    left: 390px;
     cursor: pointer;
     z-index: 10;
     transition: 700ms;

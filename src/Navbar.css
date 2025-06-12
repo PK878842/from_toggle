@@ -1,0 +1,49 @@
+.nav_bg{
+    height: px;
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    z-index: 99;
+    background-color: black;
+    position: sticky;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.search_box{
+    height: 55px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 40px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.links a:hover{
+    color: rgb(243, 43, 199);
+    text-decoration: underline;
+    line-gap-override: 30px;
+    line-height-step: 30px;
+    line-height: 20px;
+}
