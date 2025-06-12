@@ -7,6 +7,13 @@ function Login(){
     const [buttontxt,setbuttontxt] = useState("LOGIN");
     
     function checkdetailes(){
+        if(user_email.trim() === "" && user_password.trim() === ""){
+            setbuttontxt("EMPTY FIELDS ❌")
+            setTimeout(()=>{
+                setbuttontxt("LOGIN")
+            },3000);
+            return;
+        }
         if(user_email == localStorage.getItem("email") && user_password == localStorage.getItem("password")){
             setbuttontxt("SUCCESS");
             console.log("success");

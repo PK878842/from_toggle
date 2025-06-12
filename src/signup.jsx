@@ -9,6 +9,13 @@ function Signup(){
     const [password,setpassword] = useState("");
     const [btntext,setbtntext] = useState("SIGNUP")
     function SetValue(){
+        if(username.trim() === "" && email.trim() === "" && password.trim() === ""){
+            setbtntext("EMPTY FIELDS ❌")
+            setTimeout(()=>{
+                setbtntext("SIGNUP")
+            },3000);
+            return;
+        }
         localStorage.setItem("username",username);
         localStorage.setItem("email",email);
         localStorage.setItem("password",password);
